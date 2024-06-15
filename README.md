@@ -1,4 +1,4 @@
-# AI-Powered Check Fraud Detection System
+# AI-Powered Check Fraud Multi-Agent Risk Analytics System
 
 ## Table of Contents
 
