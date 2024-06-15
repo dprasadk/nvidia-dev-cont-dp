@@ -118,11 +118,11 @@ This project aims to demonstrate a practical, AI-driven solution to a real-world
    ```
 2. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/check-fraud-detection.git  # Replace with your actual repository URL
-   ```
+   git clone https://github.com/dprasadk/nvidia-dev-cont-dp.git  # Replace with your actual repository URL
+      ```
 3. **Navigate to the project directory:**
    ```bash
-   cd check-fraud-detection  # Replace 'check-fraud-detection' with your actual directory name
+   cd nvidia-dev-cont-dp  # Replace 'check-fraud-detection' with your actual directory name
    ```
 4. **Install dependencies (make sure your virtual environment is activated):**
    ```bash
