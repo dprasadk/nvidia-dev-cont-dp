@@ -122,7 +122,7 @@ This project aims to demonstrate a practical, AI-driven solution to a real-world
       ```
 3. **Navigate to the project directory:**
    ```bash
-   cd nvidia-dev-cont-dp  # Replace 'check-fraud-detection' with your actual directory name
+   cd nvidia-dev-cont-dp  # Replace 'nvidia-dev-cont-dp' with your actual directory name
    ```
 4. **Install dependencies (make sure your virtual environment is activated):**
    ```bash
