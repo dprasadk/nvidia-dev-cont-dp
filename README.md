@@ -108,7 +108,8 @@ This project aims to demonstrate a practical, AI-driven solution to a real-world
 
 ## System Architecture
 
-**(Include a detailed diagram illustrating the interaction between components, including:**
+**A detailed diagram illustrating the interaction between components:**
+![System Architecture](Agent-Arch.png)
 
 * **User Input:** How the user provides information about the check.
 * **Retrieval Agent:** How it receives user input, interacts with the vector database, and retrieves relevant fraud patterns.
@@ -388,6 +389,12 @@ Before adding this data to the vector database, you'll likely need to perform so
 3. **Generate embeddings:** Use an embedding model (like those available through Langchain) to represent each fraud pattern as a vector.
 
 ## Agent Interaction Flow
+
+**Multi-Agent Workflow Visualization:**
+- This diagram  visualizes the LangGraph workflow of our check fraud agents.
+  
+![State Graph](my_graph.png)
+
 
 1. **User Input:** The user provides information about the check, such as the sender, amount, and any unusual circumstances.
 
