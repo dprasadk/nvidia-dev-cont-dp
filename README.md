@@ -502,9 +502,10 @@ We welcome contributions!  Here’s how you can get involved:
 - **Feature Requests:**  Have an idea for a cool new feature?  Submit it as a feature request: [link to feature request section].
 - **Code Contributions:** We appreciate your help in making this project even better. Fork the repository, make your changes, and submit a pull request. Please make sure to follow our coding guidelines: [link to contributing guidelines].
 
-## License
+## Generative AI Agents Developer Contest , Submission Details
 
-This project is licensed under the [**License Name Here**] - see the [LICENSE](LICENSE) file for details. 
+- This project was developed for NVIDIA's Gen AI Agents Developer Contest.
+    > *Check out our NVIDIA/Langchain contest submission on 𝕏! [URL]: __________________* 
 
 
 
