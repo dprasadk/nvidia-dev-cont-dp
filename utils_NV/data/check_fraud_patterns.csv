@@ -1,0 +1,289 @@
+pattern_name,description,red_flags,risk_level
+Unknown Sender with Large Amount,"Be wary of checks from unfamiliar individuals or businesses, especially for significant sums.","Sender is not known to the recipient,Check amount is unusually high",medium
+Overpayment Scam,"Scammers send a check for more than the agreed amount, asking for the difference to be returned.","Check is for more than the expected amount,Sender requests a refund or payment",high
+Forged Checks,Checks with forged signatures or altered details.,"Signature does not match the account holder's,Check details appear tampered with",high
+Counterfeit Checks,Fake checks that are made to look authentic.,"Check paper feels different,Security features missing or incorrect",high
+Stolen Checks,Checks stolen from the rightful owner and used fraudulently.,"Check reported stolen by the owner,Unauthorized transactions",high
+Altered Payee,The payee information on the check is altered to divert payment.,"Payee name appears overwritten,Check does not match records",medium
+Duplicate Check Fraud,Multiple checks with the same number or details are presented for payment.,"Check number already processed,Duplicate check detected",medium
+Check Kiting,Writing checks from one account to another without sufficient funds in either.,"Frequent transfers between accounts,Insufficient funds in accounts",high
+Fake Business Checks,Checks that appear to be from legitimate businesses but are fake.,"Business details do not match official records,Check looks suspicious",high
+Third-Party Checks,Checks endorsed to third parties who then cash them fraudulently.,"Unfamiliar third party endorsing the check,Endorsement looks suspicious",medium
+Uncollected Funds Fraud,Checks deposited for uncollected funds later found to be fraudulent.,"Deposited check bounces,Funds were withdrawn immediately after deposit",high
+Account Takeover,Fraudulent checks written after gaining unauthorized access to an account.,"Unusual account activity,Checks written without account holder's knowledge",high
+Non-sufficient Funds (NSF) Fraud,Checks written without sufficient funds in the account.,"Check bounces due to insufficient funds,Account holder claims no knowledge",medium
+Payroll Check Fraud,Fraudulent checks issued as payroll payments.,"Check issued from payroll account but unauthorized,Recipient not known to payroll department",medium
+Lottery Scam,Checks sent claiming lottery winnings but require payment to claim the prize.,"Recipient did not enter a lottery,Request for payment to claim prize",high
+Advance Fee Fraud,Checks sent requiring the recipient to pay fees in advance.,"Unexpected check received,Request for upfront payment",high
+Deposit Fraud,Checks deposited with the intent to withdraw funds before the check clears.,"Suspiciously large deposit,Funds withdrawn immediately after deposit",high
+Phishing Scams,Checks sent as part of phishing attempts to gather personal information.,"Check accompanied by phishing attempt,Request for sensitive information",medium
+Romance Scam,Checks sent by scammers posing as romantic interests.,"Check from a new romantic interest,Request for financial help",high
+Mail Theft Fraud,Checks stolen from mailboxes and altered or cashed fraudulently.,"Check stolen from mailbox,Altered payee or amount",medium
+Fake Refund Checks,Checks sent claiming to be refunds but are fake.,"Unexpected refund check,Instructions to deposit and send a portion back",high
+Charity Scam,Checks sent under the guise of charitable donations but are fraudulent.,"Check from unknown charity,Request for donation in return",medium
+Business Email Compromise (BEC),Checks sent after compromising a business email account.,"Unexpected check based on email instruction,Email sender's address slightly altered",high
+Pretexting,Checks sent as part of a social engineering attack to gather information.,"Check accompanied by request for sensitive information,Unusual request based on check",medium
+Mystery Shopper Scam,Checks sent to fund mystery shopping assignments but are fake.,"Unexpected check for mystery shopping,Request to evaluate money transfer services",high
+Utility Bill Scam,Checks sent claiming overpayment of utility bills with a request for a refund.,"Unexpected check from utility company,Request for refund payment",medium
+Insurance Scam,Checks sent claiming to be insurance payouts that require fees to be paid.,"Unexpected insurance check,Request for payment to process claim",high
+Employment Scam,Checks sent as part of fake job offers or employment schemes.,"Check received for job not applied for,Request for payment or personal information",high
+Rebate Fraud,Checks sent claiming to be rebates but are fake.,"Unexpected rebate check,Request to deposit and return part of the funds",medium
+Real Estate Scam,"Checks sent in real estate scams, often for rental properties.","Check for rental property not viewed,Request to wire money for deposit",high
+Email Check Fraud,Checks sent following compromised email accounts.,"Unexpected check based on email communication,Email sender address suspicious",medium
+Tax Refund Scam,Fake tax refund checks sent with requests for repayment.,"Unexpected tax refund,Request to return part of the refund",high
+Loan Scam,Checks sent claiming to be loan disbursements but are fake.,"Unexpected loan check,Request for upfront fees",high
+Inheritance Scam,Checks sent claiming to be from inheritance payouts but require fees.,"Unexpected inheritance check,Instructions to pay processing fees",high
+Subscription Fraud,Checks sent for fake subscription renewals or refunds.,"Unexpected check for subscription,Request for payment to renew or refund",medium
+Check Washing,Checks altered chemically to change the payee or amount.,"Check appears tampered with,Ink looks washed or faded",high
+Medical Billing Fraud,Checks sent as part of medical billing scams.,"Unexpected check from medical provider,Request for payment or personal information",medium
+Fake Government Checks,Checks sent claiming to be from government agencies but are fake.,"Unexpected check from government,Request to deposit and send money back",high
+Student Loan Scam,Checks sent claiming to be student loan disbursements but are fake.,"Unexpected student loan check,Request for processing fees",high
+Online Purchase Scam,Checks sent for online purchases that later bounce.,"Check received for online sale,Item shipped but check bounces",medium
+Pension Scam,Checks sent claiming to be pension payouts but are fraudulent.,"Unexpected pension check,Request for processing fees",high
+Investment Scam,Checks sent as part of fraudulent investment schemes.,"Unexpected investment check,Request for additional funds to secure investment",high
+Gift Card Scam,Checks sent with instructions to purchase gift cards and send the codes.,"Check received with gift card purchase request,Instructions to send gift card codes",high
+Unsolicited Grant Scam,Checks sent claiming to be grants that require a fee to claim.,"Unexpected grant check,Request for processing fee",high
+Online Auction Scam,Checks sent for items won in online auctions that later bounce.,"Check received for auction item,Buyer requests item shipment before check clears",medium
+Debt Settlement Scam,Checks sent claiming to settle debts but are fraudulent.,"Unexpected debt settlement check,Request for payment to finalize settlement",high
+Fraudulent Donations,Checks sent as fake donations to individuals or organizations.,"Unexpected donation check,Request to return part of the funds",medium
+Telemarketing Scam,Checks sent as part of telemarketing scams for prizes or services.,"Check received following a telemarketing call,Request for fees to claim prize",high
+Fake Invoice Scam,Checks sent to pay fake invoices for goods or services not rendered.,"Check received for unknown invoice,Request for payment for unrecognized service",medium
+Fake Refund Fraud,Checks claiming to be refunds for overpayments but are fraudulent.,"Unexpected refund check,Request to return part of the funds",high
+Corporate Account Takeover,Checks issued fraudulently after gaining access to corporate accounts.,"Unusual account activity,Checks issued without authorization",high
+Scholarship Scam,Checks sent claiming to be scholarship awards but require fees.,"Unexpected scholarship check,Request for processing fees",high
+Online Dating Scam,Checks sent by scammers met through online dating sites.,"Check from online romantic interest,Request for financial assistance",high
+Phony Contractor Scam,Checks sent by fake contractors for work not performed.,"Check from unknown contractor,Request for payment for unperformed work",medium
+Fundraiser Scam,Checks sent as fake contributions to fundraisers.,"Unexpected fundraiser check,Request to return part of the funds",medium
+Overseas Check Fraud,Checks sent from overseas claiming to be payments or gifts.,"Check from unfamiliar overseas sender,Instructions to wire money back",high
+Insurance Refund Scam,Checks sent claiming to be refunds for overpaid insurance premiums.,"Unexpected insurance refund check,Request to return part of the funds",high
+Bogus Claims Fraud,"Checks sent for bogus claims, often related to accidents or damage.","Check received for unfiled claim,Request for payment to process claim",medium
+Rental Property Scam,Checks sent for rental properties that do not exist.,"Check for unseen rental property,Request for deposit or rent",high
+Tax Payment Scam,Checks sent claiming to be tax refunds or payments but are fake.,"Unexpected tax payment check,Request for payment to process tax refund",high
+Fake Charity Check,Checks sent claiming to be from charities but are fraudulent.,"Check from unknown charity,Request for donation in return",medium
+Credit Repair Scam,Checks sent claiming to be part of credit repair services.,"Unexpected credit repair check,Request for payment to fix credit",high
+Fake Contest Win,Checks sent claiming to be winnings from contests not entered.,"Unexpected contest win check,Request for processing fees",high
+Subscription Renewal Scam,Checks sent for fake subscription renewals.,"Check received for unknown subscription,Request for payment to renew",medium
+Utility Overpayment Scam,Checks sent claiming overpayment of utility bills with a request for a refund.,"Unexpected check from utility company,Request for refund payment",medium
+Pyramid Scheme Fraud,Checks sent as part of pyramid schemes.,"Check received for participation in investment scheme,Request for additional funds",high
+Elder Fraud,Checks targeting elderly individuals with fraudulent claims.,"Check received by elderly person,Request for payment or personal information",high
+Business Opportunity Scam,Checks sent as part of fake business opportunities.,"Unexpected check for business opportunity,Request for investment or fees",high
+Payment Diversion Fraud,Checks sent to divert payments from legitimate recipients.,"Check received with altered payee,Instructions to divert payment",medium
+Fake Rebate Program,Checks sent claiming to be from rebate programs but are fraudulent.,"Unexpected rebate check,Request to deposit and return part of the funds",medium
+Advance Payment Scam,Checks sent requiring advance payments for services or goods.,"Unexpected check for advance payment,Request for upfront fees",high
+Subscription Cancellation Scam,Checks sent claiming to be refunds for canceled subscriptions.,"Unexpected refund check,Request to return part of the funds",medium
+Unauthorized Withdrawal Fraud,Checks used to withdraw funds without authorization.,"Unauthorized check withdrawal,Unrecognized transaction",high
+Cloning Fraud,Checks cloned from legitimate ones to defraud the account.,"Check number duplicates a legitimate check,Unusual check activity",high
+Lottery Winning Scam,Checks sent claiming lottery winnings but requiring fees to claim the prize.,"Unexpected lottery win check,Request for payment to process claim",high
+Medical Equipment Scam,Checks sent for fake medical equipment sales.,"Check received for medical equipment not ordered,Request for payment",medium
+Tuition Scam,Checks sent claiming to be tuition refunds but are fake.,"Unexpected tuition refund check,Request for payment to process refund",high
+Debt Consolidation Scam,Checks sent as part of fake debt consolidation schemes.,"Unexpected check for debt consolidation,Request for upfront fees",high
+Fake Legal Settlement,Checks sent claiming to be legal settlements but are fake.,"Unexpected legal settlement check,Request for processing fees",high
+Inheritance Collection Scam,Checks sent claiming to be from inheritance collections but require fees.,"Unexpected inheritance collection check,Request for payment to release funds",high
+Online Service Scam,Checks sent for online services not provided.,"Check received for unknown online service,Request for payment",medium
+Fake Charity Donation,Checks sent claiming to be donations to charities but are fake.,"Unexpected charity donation check,Request to return part of the funds",medium
+Utility Refund Scam,Checks sent claiming to be refunds for overpaid utility bills.,"Unexpected utility refund check,Request to return part of the funds",medium
+Fraudulent Investment Return,Checks sent as part of fake investment returns.,"Unexpected investment return check,Request for additional investment",high
+Vacation Rental Scam,Checks sent for vacation rentals that do not exist.,"Check for unseen vacation rental,Request for deposit or rent",high
+Online Marketplace Scam,Checks sent for items listed on online marketplaces that later bounce.,"Check received for online sale,Item shipped but check bounces",medium
+Phony Check Cashing,Checks sent for cashing under fraudulent pretenses.,"Check received for cashing,Request to send portion back",high
+Social Security Scam,Checks sent claiming to be from social security but are fake.,"Unexpected social security check,Request for payment to process claim",high
+Fake Grant Program,Checks sent claiming to be from grant programs but are fraudulent.,"Unexpected grant check,Request for processing fees",high
+Refund Check Scam,Checks sent claiming to be refunds for various payments but are fake.,"Unexpected refund check,Request to return part of the funds",high
+Real Estate Overpayment Scam,Checks sent for real estate overpayments with request for refund.,"Check for real estate deal,Request to return overpayment",high
+Unauthorized Check Issuance,Checks issued without authorization or knowledge of account holder.,"Unrecognized check issuance,Unauthorized transaction",high
+Fraudulent Loan Check,Checks sent claiming to be loan disbursements but are fake.,"Unexpected loan check,Request for upfront fees",high
+Employment Overpayment Scam,Checks sent as part of fake job overpayments with request for refund.,"Check received for job not applied for,Request to return overpayment",high
+Fake Payment for Goods,Checks sent for goods not ordered or received.,"Check received for unknown goods,Request for payment or refund",medium
+Funeral Expense Scam,Checks sent claiming to cover funeral expenses but are fraudulent.,"Unexpected funeral expense check,Request for payment to process claim",high
+Phony Relocation Scam,Checks sent claiming to be relocation funds but are fake.,"Unexpected relocation check,Request for processing fees",high
+Fake Vendor Payment,Checks sent to pay fake vendor invoices.,"Check received for unknown vendor,Request for payment for unrecognized service",medium
+Elderly Care Scam,Checks sent claiming to be for elderly care services but are fake.,"Check received for elderly care not provided,Request for payment",high
+Ponzi Scheme Fraud,Checks sent as part of Ponzi schemes.,"Check received for participation in investment scheme,Request for additional funds",high
+Online Freelance Scam,Checks sent for freelance work not performed or applied for.,"Check received for freelance work not done,Request for payment or refund",medium
+Fake Rental Deposit,Checks sent for rental deposits for properties that do not exist.,"Check for unseen rental property,Request for deposit",high
+Phony Charity Auction,Checks sent as fake contributions to charity auctions.,"Unexpected charity auction check,Request to return part of the funds",medium
+Utility Payment Scam,Checks sent claiming to be utility payments but are fake.,"Unexpected utility payment check,Request to return part of the funds",medium
+Fake Settlement Check,Checks sent claiming to be settlements from lawsuits not filed.,"Unexpected settlement check,Request for processing fees",high
+Online Sales Scam,Checks sent for online sales that later bounce.,"Check received for online sale,Item shipped but check bounces",medium
+Fake Medical Claims,Checks sent for fake medical claims.,"Check received for unfiled medical claim,Request for payment to process claim",medium
+Real Estate Deposit Scam,Checks sent for real estate deposits that are fraudulent.,"Check for unseen property,Request for deposit",high
+Online Employment Scam,Checks sent for jobs applied for online that are fake.,"Check received for job not applied for,Request for payment or personal information",high
+Phony Government Grant,Checks sent claiming to be government grants but are fake.,"Unexpected government grant check,Request for processing fees",high
+Fake Contractor Payment,Checks sent by fake contractors for work not performed.,"Check received for unknown contractor,Request for payment for unperformed work",medium
+Utility Service Scam,Checks sent claiming to be for utility services but are fake.,"Unexpected utility service check,Request for payment to process claim",medium
+Fraudulent Tax Return,Checks sent claiming to be tax returns that are fake.,"Unexpected tax return check,Request for payment to process claim",high
+Fake Healthcare Reimbursement,Checks sent claiming to be healthcare reimbursements but are fake.,"Unexpected healthcare reimbursement check,Request for payment to process claim",medium
+Online Shopping Scam,Checks sent for online purchases that are fraudulent.,"Check received for online purchase,Request for payment or refund",medium
+Fake Charity Contribution,Checks sent claiming to be from charitable contributions but are fake.,"Unexpected charity contribution check,Request to return part of the funds",medium
+Phony Utility Refund,Checks sent claiming to be utility refunds that are fake.,"Unexpected utility refund check,Request to return part of the funds",medium
+Rental Deposit Scam,Checks sent for rental deposits that are fraudulent.,"Check for unseen rental property,Request for deposit",high
+Social Media Scam,Checks sent following social media scams.,"Check received from social media contact,Request for payment or personal information",high
+Phony Debt Payment,Checks sent claiming to be debt payments but are fake.,"Unexpected debt payment check,Request for payment to process claim",high
+Fake Bank Check,Checks sent claiming to be from banks but are fake.,"Unexpected bank check,Request for payment to process claim",medium
+Subscription Overpayment Scam,Checks sent for overpaid subscriptions with request for refund.,"Unexpected subscription overpayment check,Request to return overpayment",medium
+Phony Investment Check,Checks sent claiming to be investment returns but are fake.,"Unexpected investment return check,Request for additional funds",high
+Online Fraudulent Check,Checks sent for online transactions that are fraudulent.,"Check received for online transaction,Request for payment or refund",medium
+Fake Job Offer,Checks sent as part of fake job offers or employment schemes.,"Check received for job not applied for,Request for payment or personal information",high
+Fraudulent Utility Bill Payment,Checks sent claiming to be utility bill payments that are fake.,"Unexpected utility bill payment check,Request to return part of the funds",medium
+Inheritance Overpayment Scam,Checks sent for inheritance overpayments with request for refund.,"Check for inheritance deal,Request to return overpayment",high
+Phony Legal Settlement,Checks sent claiming to be legal settlements but are fake.,"Unexpected legal settlement check,Request for processing fees",high
+Fake Government Payment,Checks sent claiming to be government payments but are fake.,"Unexpected government payment check,Request for payment to process claim",medium
+Utility Scam,Checks sent claiming to be utility payments but are fake.,"Unexpected utility payment check,Request to return part of the funds",medium
+Fraudulent Real Estate Check,Checks sent for real estate transactions that are fraudulent.,"Check for unseen property,Request for deposit",high
+Fake Business Payment,Checks sent claiming to be business payments but are fake.,"Unexpected business payment check,Request for payment to process claim",medium
+Fraudulent Refund Check,Checks sent claiming to be refunds that are fake.,"Unexpected refund check,Request to return part of the funds",high
+Phony Social Security Check,Checks sent claiming to be from social security but are fake.,"Unexpected social security check,Request for payment to process claim",high
+Fake Vendor Invoice,Checks sent to pay fake vendor invoices.,"Check received for unknown vendor,Request for payment for unrecognized service",medium
+Online Rental Scam,Checks sent for online rental properties that are fake.,"Check for unseen rental property,Request for deposit",high
+Fraudulent Donation Check,Checks sent claiming to be donations that are fake.,"Unexpected donation check,Request to return part of the funds",medium
+Phony Utility Payment,Checks sent claiming to be utility payments but are fake.,"Unexpected utility payment check,Request to return part of the funds",medium
+Fraudulent Donation Check,Checks sent claiming to be donations that are fake.,"Unexpected donation check,Request to return part of the funds",medium
+Fraudulent Charity Contribution,Checks sent claiming to be contributions to charities but are fake.,"Unexpected charity contribution check,Request to return part of the funds",medium
+Fake Online Purchase,Checks sent for online purchases that are fraudulent.,"Check received for online purchase,Request for payment or refund",medium
+Fraudulent Subscription Check,Checks sent for subscription renewals or cancellations that are fake.,"Unexpected subscription check,Request for payment or refund",medium
+Phony Utility Overpayment,Checks sent for overpaid utility bills with a request for refund.,"Unexpected utility overpayment check,Request to return overpayment",medium
+Fake Loan Disbursement,Checks sent claiming to be loan disbursements but are fake.,"Unexpected loan disbursement check,Request for upfront fees",high
+Fraudulent Payroll Check,Checks sent claiming to be payroll payments but are fake.,"Unexpected payroll check,Request for payment or personal information",medium
+Phony Real Estate Check,Checks sent for real estate transactions that are fake.,"Check for unseen property,Request for deposit",high
+Fraudulent Medical Payment,Checks sent for medical claims that are fraudulent.,"Check received for unfiled medical claim,Request for payment to process claim",medium
+Fake Government Refund,Checks sent claiming to be government refunds that are fake.,"Unexpected government refund check,Request to return part of the funds",high
+Fraudulent Student Loan Check,Checks sent claiming to be student loan disbursements that are fake.,"Unexpected student loan check,Request for processing fees",high
+Fake Business Opportunity,Checks sent as part of fake business opportunities.,"Unexpected check for business opportunity,Request for investment or fees",high
+Phony Investment Return,Checks sent claiming to be investment returns that are fake.,"Unexpected investment return check,Request for additional funds",high
+Fraudulent Tax Payment,Checks sent claiming to be tax payments that are fake.,"Unexpected tax payment check,Request for payment to process claim",high
+Fake Pension Payout,Checks sent claiming to be pension payouts that are fake.,"Unexpected pension payout check,Request for processing fees",high
+Fraudulent Utility Refund,Checks sent claiming to be utility refunds that are fake.,"Unexpected utility refund check,Request to return part of the funds",medium
+Phony Investment Check,Checks sent claiming to be investment returns but are fake.,"Unexpected investment return check,Request for additional funds",high
+Fake Charity Payment,Checks sent claiming to be charity payments that are fake.,"Unexpected charity payment check,Request to return part of the funds",medium
+Fraudulent Loan Check,Checks sent claiming to be loan disbursements but are fake.,"Unexpected loan check,Request for upfront fees",high
+Phony Subscription Payment,Checks sent claiming to be subscription payments that are fake.,"Unexpected subscription payment check,Request to return part of the funds",medium
+Fake Medical Refund,Checks sent claiming to be medical refunds that are fake.,"Unexpected medical refund check,Request for payment to process claim",medium
+Fraudulent Business Check,Checks sent claiming to be business payments that are fake.,"Unexpected business payment check,Request for payment or refund",medium
+Phony Utility Check,Checks sent claiming to be utility payments that are fake.,"Unexpected utility payment check,Request to return part of the funds",medium
+Fake Tax Refund,Checks sent claiming to be tax refunds that are fake.,"Unexpected tax refund check,Request to return part of the funds",high
+Fraudulent Pension Check,Checks sent claiming to be pension payouts that are fake.,"Unexpected pension check,Request for processing fees",high
+Phony Government Check,Checks sent claiming to be government payments that are fake.,"Unexpected government payment check,Request to return part of the funds",medium
+Fake Real Estate Payment,Checks sent for real estate transactions that are fraudulent.,"Check for unseen property,Request for deposit",high
+Fraudulent Charity Check,Checks sent claiming to be charity contributions that are fake.,"Unexpected charity check,Request to return part of the funds",medium
+Phony Business Payment,Checks sent claiming to be business payments that are fake.,"Unexpected business payment check,Request to return part of the funds",medium
+Fake Loan Payment,Checks sent claiming to be loan payments that are fake.,"Unexpected loan payment check,Request for upfront fees",high
+Fraudulent Subscription Refund,Checks sent claiming to be subscription refunds that are fake.,"Unexpected subscription refund check,Request to return part of the funds",medium
+Phony Medical Check,Checks sent claiming to be medical payments that are fake.,"Unexpected medical payment check,Request for payment to process claim",medium
+Fake Investment Check,Checks sent claiming to be investment returns that are fake.,"Unexpected investment return check,Request for additional funds",high
+Fraudulent Utility Payment Check,Checks sent claiming to be utility payments that are fake.,"Unexpected utility payment check,Request to return part of the funds",medium
+Phony Tax Return Check,Checks sent claiming to be tax returns that are fake.,"Unexpected tax return check,Request to return part of the funds",high
+Fake Pension Payment,Checks sent claiming to be pension payments that are fake.,"Unexpected pension payment check,Request for processing fees",high
+Fraudulent Government Refund,Checks sent claiming to be government refunds that are fake.,"Unexpected government refund check,Request to return part of the funds",high
+Phony Real Estate Refund,Checks sent for real estate refunds that are fake.,"Check for unseen property,Request for deposit",high
+Fraudulent Charity Donation,Checks sent claiming to be charity donations that are fake.,"Unexpected charity donation check,Request to return part of the funds",medium
+Fake Business Refund,Checks sent claiming to be business refunds that are fake.,"Unexpected business refund check,Request to return part of the funds",medium
+Phony Loan Disbursement Check,Checks sent claiming to be loan disbursements that are fake.,"Unexpected loan disbursement check,Request for upfront fees",high
+Fraudulent Subscription Renewal,Checks sent claiming to be subscription renewals that are fake.,"Unexpected subscription renewal check,Request to return part of the funds",medium
+Fake Medical Settlement,Checks sent claiming to be medical settlements that are fake.,"Unexpected medical settlement check,Request for payment to process claim",medium
+Phony Online Purchase Check,Checks sent for online purchases that are fake.,"Check received for online purchase,Request for payment or refund",medium
+Fraudulent Utility Overpayment Check,Checks sent claiming to be utility overpayments that are fake.,"Unexpected utility overpayment check,Request to return part of the funds",medium
+Fake Investment Payment,Checks sent claiming to be investment payments that are fake.,"Unexpected investment payment check,Request to return part of the funds",high
+Phony Tax Refund Check,Checks sent claiming to be tax refunds that are fake.,"Unexpected tax refund check,Request to return part of the funds",high
+Fraudulent Pension Refund,Checks sent claiming to be pension refunds that are fake.,"Unexpected pension refund check,Request for processing fees",high
+Fake Government Payment Check,Checks sent claiming to be government payments that are fake.,"Unexpected government payment check,Request to return part of the funds",medium
+Phony Real Estate Payment Check,Checks sent for real estate payments that are fake.,"Check for unseen property,Request for deposit",high
+Fraudulent Charity Refund,Checks sent claiming to be charity refunds that are fake.,"Unexpected charity refund check,Request to return part of the funds",medium
+Fake Business Payment Check,Checks sent claiming to be business payments that are fake.,"Unexpected business payment check,Request for return part of the funds",medium
+Phony Loan Payment Check,Checks sent claiming to be loan payments that are fake.,"Unexpected loan payment check,Request for upfront fees",high
+Fraudulent Subscription Payment Check,Checks sent claiming to be subscription payments that are fake.,"Unexpected subscription payment check,Request to return part of the funds",medium
+Fake Medical Payment Check,Checks sent claiming to be medical payments that are fake.,"Unexpected medical payment check,Request for processing fees",medium
+Phony Investment Payment Check,Checks sent claiming to be investment payments that are fake.,"Unexpected investment payment check,Request to return part of the funds",high
+Fraudulent Utility Refund Check,Checks sent claiming to be utility refunds that are fake.,"Unexpected utility refund check,Request to return part of the funds",medium
+Fake Tax Payment Check,Checks sent claiming to be tax payments that are fake.,"Unexpected tax payment check,Request to return part of the funds",high
+Phony Pension Payment Check,Checks sent claiming to be pension payments that are fake.,"Unexpected pension payment check,Request for processing fees",high
+Fraudulent Government Payment Check,Checks sent claiming to be government payments that are fake.,"Unexpected government payment check,Request to return part of the funds",medium
+Fake Real Estate Refund Check,Checks sent for real estate refunds that are fake.,"Check for unseen property,Request for deposit",high
+Phony Charity Payment Check,Checks sent claiming to be charity payments that are fake.,"Unexpected charity payment check,Request to return part of the funds",medium
+Fraudulent Business Refund Check,Checks sent claiming to be business refunds that are fake.,"Unexpected business refund check,Request to return part of the funds",medium
+Fake Loan Disbursement Check,Checks sent claiming to be loan disbursements that are fake.,"Unexpected loan disbursement check,Request for upfront fees",high
+Phony Subscription Refund Check,Checks sent claiming to be subscription refunds that are fake.,"Unexpected subscription refund check,Request to return part of the funds",medium
+Fraudulent Medical Payment Check,Checks sent claiming to be medical payments that are fake.,"Unexpected medical payment check,Request for processing fees",medium
+Fake Investment Refund Check,Checks sent claiming to be investment refunds that are fake.,"Unexpected investment refund check,Request to return part of the funds",high
+Phony Utility Payment Check,Checks sent claiming to be utility payments that are fake.,"Unexpected utility payment check,Request to return part of the funds",medium
+Fraudulent Tax Refund Check,Checks sent claiming to be tax refunds that are fake.,"Unexpected tax refund check,Request to return part of the funds",high
+Fake Pension Refund Check,Checks sent claiming to be pension refunds that are fake.,"Unexpected pension refund check,Request for processing fees",high
+Phony Government Refund Check,Checks sent claiming to be government refunds that are fake.,"Unexpected government refund check,Request to return part of the funds",medium
+Fraudulent Real Estate Payment Check,Checks sent for real estate payments that are fake.,"Check for unseen property,Request for deposit",high
+Fake Charity Refund Check,Checks sent claiming to be charity refunds that are fake.,"Unexpected charity refund check,Request to return part of the funds",medium
+Phony Business Payment Check,Checks sent claiming to be business payments that are fake.,"Unexpected business payment check,Request to return part of the funds",medium
+Fraudulent Loan Payment Check,Checks sent claiming to be loan payments that are fake.,"Unexpected loan payment check,Request for upfront fees",high
+Fake Subscription Payment Check,Checks sent claiming to be subscription payments that are fake.,"Unexpected subscription payment check,Request to return part of the funds",medium
+Phony Medical Refund Check,Checks sent claiming to be medical refunds that are fake.,"Unexpected medical refund check,Request for processing fees",medium
+Fraudulent Investment Payment Check,Checks sent claiming to be investment payments that are fake.,"Unexpected investment payment check,Request to return part of the funds",high
+Fake Utility Refund Check,Checks sent claiming to be utility refunds that are fake.,"Unexpected utility refund check,Request to return part of the funds",medium
+Phony Tax Payment Check,Checks sent claiming to be tax payments that are fake.,"Unexpected tax payment check,Request to return part of the funds",high
+Fraudulent Pension Payment Check,Checks sent claiming to be pension payments that are fake.,"Unexpected pension payment check,Request for processing fees",high
+Fake Government Payment Check,Checks sent claiming to be government payments that are fake.,"Unexpected government payment check,Request to return part of the funds",medium
+Phony Real Estate Payment Check,Checks sent for real estate payments that are fake.,"Check for unseen property,Request for deposit",high
+Fraudulent Charity Payment Check,Checks sent claiming to be charity payments that are fake.,"Unexpected charity payment check,Request to return part of the funds",medium
+Fake Business Payment Check,Checks sent claiming to be business payments that are fake.,"Unexpected business payment check,Request to return part of the funds",medium
+Phony Loan Refund Check,Checks sent claiming to be loan refunds that are fake.,"Unexpected loan refund check,Request for upfront fees",high
+Fraudulent Subscription Refund Check,Checks sent claiming to be subscription refunds that are fake.,"Unexpected subscription refund check,Request to return part of the funds",medium
+Fake Medical Payment Check,Checks sent claiming to be medical payments that are fake.,"Unexpected medical payment check,Request for processing fees",medium
+Phony Investment Payment Check,Checks sent claiming to be investment payments that are fake.,"Unexpected investment payment check,Request to return part of the funds",high
+Fraudulent Utility Payment Check,Checks sent claiming to be utility payments that are fake.,"Unexpected utility payment check,Request to return part of the funds",medium
+Fake Tax Refund Check,Checks sent claiming to be tax refunds that are fake.,"Unexpected tax refund check,Request to return part of the funds",high
+Phony Pension Refund Check,Checks sent claiming to be pension refunds that are fake.,"Unexpected pension refund check,Request for processing fees",high
+Fraudulent Government Payment Check,Checks sent claiming to be government payments that are fake.,"Unexpected government payment check,Request to return part of the funds",medium
+Fake Real Estate Payment Check,Checks sent for real estate payments that are fake.,"Check for unseen property,Request for deposit",high
+Phony Charity Refund Check,Checks sent claiming to be charity refunds that are fake.,"Unexpected charity refund check,Request to return part of the funds",medium
+Fraudulent Business Payment Check,Checks sent claiming to be business payments that are fake.,"Unexpected business payment check,Request to return part of the funds",medium
+Fake Loan Payment Check,Checks sent claiming to be loan payments that are fake.,"Unexpected loan payment check,Request for upfront fees",high
+Phony Subscription Payment Check,Checks sent claiming to be subscription payments that are fake.,"Unexpected subscription payment check,Request to return part of the funds",medium
+Fraudulent Medical Refund Check,Checks sent claiming to be medical refunds that are fake.,"Unexpected medical refund check,Request for processing fees",medium
+Fake Investment Refund Check,Checks sent claiming to be investment refunds that are fake.,"Unexpected investment refund check,Request to return part of the funds",high
+Phony Utility Refund Check,Checks sent claiming to be utility refunds that are fake.,"Unexpected utility refund check,Request to return part of the funds",medium
+Fraudulent Tax Payment Check,Checks sent claiming to be tax payments that are fake.,"Unexpected tax payment check,Request to return part of the funds",high
+Fake Pension Payment Check,Checks sent claiming to be pension payments that are fake.,"Unexpected pension payment check,Request for processing fees",high
+Phony Government Payment Check,Checks sent claiming to be government payments that are fake.,"Unexpected government payment check,Request to return part of the funds",medium
+Fraudulent Real Estate Refund Check,Checks sent for real estate refunds that are fake.,"Check for unseen property,Request for deposit",high
+Fake Charity Payment Check,Checks sent claiming to be charity payments that are fake.,"Unexpected charity payment check,Request to return part of the funds",medium
+Phony Business Refund Check,Checks sent claiming to be business refunds that are fake.,"Unexpected business refund check,Request to return part of the funds",medium
+Fraudulent Loan Refund Check,Checks sent claiming to be loan refunds that are fake.,"Unexpected loan refund check,Request for upfront fees",high
+Fake Subscription Refund Check,Checks sent claiming to be subscription refunds that are fake.,"Unexpected subscription refund check,Request to return part of the funds",medium
+Phony Medical Payment Check,Checks sent claiming to be medical payments that are fake.,"Unexpected medical payment check,Request for processing fees",medium
+Fraudulent Investment Refund Check,Checks sent claiming to be investment refunds that are fake.,"Unexpected investment refund check,Request to return part of the funds",high
+Fake Utility Payment Check,Checks sent claiming to be utility payments that are fake.,"Unexpected utility payment check,Request to return part of the funds",medium
+Phony Tax Refund Check,Checks sent claiming to be tax refunds that are fake.,"Unexpected tax refund check,Request to return part of the funds",high
+Fraudulent Pension Refund Check,Checks sent claiming to be pension refunds that are fake.,"Unexpected pension refund check,Request for processing fees",high
+Fake Government Refund Check,Checks sent claiming to be government refunds that are fake.,"Unexpected government refund check,Request to return part of the funds",medium
+Phony Real Estate Refund Check,Checks sent for real estate refunds that are fake.,"Check for unseen property,Request for deposit",high
+Fraudulent Charity Refund Check,Checks sent claiming to be charity refunds that are fake.,"Unexpected charity refund check,Request to return part of the funds",medium
+Fake Business Payment Check,Checks sent claiming to be business payments that are fake.,"Unexpected business payment check,Request to return part of the funds",medium
+Phony Loan Payment Check,Checks sent claiming to be loan payments that are fake.,"Unexpected loan payment check,Request for upfront fees",high
+Fraudulent Subscription Payment Check,Checks sent claiming to be subscription payments that are fake.,"Unexpected subscription payment check,Request to return part of the funds",medium
+Fake Medical Refund Check,Checks sent claiming to be medical refunds that are fake.,"Unexpected medical refund check,Request for processing fees",medium
+Phony Investment Payment Check,Checks sent claiming to be investment payments that are fake.,"Unexpected investment payment check,Request to return part of the funds",high
+Fraudulent Utility Refund Check,Checks sent claiming to be utility refunds that are fake.,"Unexpected utility refund check,Request to return part of the funds",medium
+Fake Tax Payment Check,Checks sent claiming to be tax payments that are fake.,"Unexpected tax payment check,Request to return part of the funds",high
+Phony Pension Payment Check,Checks sent claiming to be pension payments that are fake.,"Unexpected pension payment check,Request for processing fees",high
+Fraudulent Government Refund Check,Checks sent claiming to be government refunds that are fake.,"Unexpected government refund check,Request to return part of the funds",medium
+Fake Real Estate Payment Check,Checks sent for real estate payments that are fake.,"Check for unseen property,Request for deposit",high
+Phony Charity Payment Check,Checks sent claiming to be charity payments that are fake.,"Unexpected charity payment check,Request to return part of the funds",medium
+Fraudulent Business Refund Check,Checks sent claiming to be business refunds that are fake.,"Unexpected business refund check,Request to return part of the funds",medium
+Fake Loan Refund Check,Checks sent claiming to be loan refunds that are fake.,"Unexpected loan refund check,Request for upfront fees",high
+Brokerage Account Scam,Scammers impersonate brokers and convince victims to write checks for fake investments.,"Unlicensed brokers, promises of guaranteed high returns.",High
+Counterfeit Goods Purchase,"Consumers are tricked into buying counterfeit products, often paying by check.","Suspiciously low prices, unverified sellers.",High
+Fake Bail Bonds,Scammers claim a relative is in jail and request payment via check for bail bonds.,"Urgent requests for bail money, callers impersonating law enforcement.",High
+Employment Scam,Job seekers are told they need to pay for training or supplies with a check.,"Jobs requiring upfront payment for training or materials, vague job details.",High
+Check Kiting,Individuals open multiple bank accounts and use the float time of checks to create false balances.,"Rapidly moving funds between accounts, multiple accounts in different banks.",High
+Landlord Overpayment Scam,Prospective tenants overpay their supposed landlords and request the excess be returned.,"Tenant unable to visit property, overpayment requested to be refunded.",High
+Phishing Scams Leading to Check Fraud,Victims are tricked into revealing financial information leading to unauthorized checks.,"Phishing emails or calls, unusual account activity.",High
+False Billing,Companies are invoiced for non-existent advertising or directory listings.,"Invoices for unfamiliar services, high-pressure sales tactics.",Medium
+Check Theft and Alteration,Checks are stolen from mailboxes or offices and amounts are altered before deposit.,"Altered check amounts, checks missing from sequence.",High
+Fake Debt Relief,Scammers promise to negotiate debt for a fee paid upfront by check.,"Promises of debt reduction, upfront fees required.",High
+Legal Settlement Scam,Fraudsters claim to represent law firms offering to settle fake lawsuits if a fee is paid by check.,"Demands for payment to settle out-of-court, unverified attorney contacts.",High
+Fake Licensing Fees,Businesses are asked to pay licensing fees by check for compliance with non-existent regulations.,"Requests tied to unfamiliar regulatory bodies, lack of official documentation.",Medium
+Charity Event Ticket Scam,"Tickets for fake charity events are sold, with payments often made by check.","High-ticket prices for charity, no details about the event’s organization.",High
+Investment Seminar Scam,Attendees pay by check for seminars that promise investment tips but provide no real value.,"High fees, promises of exclusive investment opportunities.",High
+Phony Contracting License,"Individuals pay for contracting licenses from fake institutions, often through checks.","Licenses from unverified institutions, immediate payment requests.",High
+Check Fraud in Property Sale,Fraudsters posing as sellers or buyers of properties engage in transactions involving fraudulent checks.,"Rushed transactions, unusual payment methods.",High
+Insurance Claim Fraud,Checks are issued based on exaggerated or completely fabricated insurance claims.,"Suspiciously high claims, lack of proper documentation.",High
+Fake Lottery Winnings,Victims are told they’ve won a lottery and must pay taxes or fees by check to claim the winnings.,"Notification of lottery win without entry, upfront payment required.",High
+Rent-to-Own Scam,Potential renters pay initial deposits by check under schemes that offer eventual home ownership but don't deliver.,"Upfront cash requirements, lack of clear ownership documents.",High
+Fake Online Sales,"Sellers receive checks for goods sold online, but the checks bounce after the goods are shipped.","Buyer insists on paying by check, checks bounce or are fraudulent.",High
