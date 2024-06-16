@@ -39,7 +39,22 @@ Check fraud remains a persistent threat, costing individuals and businesses bill
 
 This project leverages the power of artificial intelligence (AI) and a multi-agent system to combat check fraud effectively. By combining NVIDIA's powerful large language models (LLMs) with Langchain's streamlined development framework and LangGraph's agent orchestration capabilities, we've created a system that can analyze check-related information, identify potential fraud, and explain its reasoning in a user-friendly way.
 
-Here's how these technologies work together:
+* **Reason for Choosing "meta/llama3-8b-instruct":** 
+
+    "We've chosen to use the "meta/llama3-8b-instruct" model from NVIDIA's LLM offerings for several reasons:
+
+    * **Strong Instruct Capabilities:** This model is specifically fine-tuned for instruction following, making it well-suited for our use case where we need the LLM to understand and respond accurately to prompts designed for information retrieval, fraud detection, and explanation generation. 
+    * **Balance of Size and Performance:**  The 8 billion parameter size provides a good balance between computational efficiency and model capability. It allows us to achieve good performance on our tasks without requiring excessive computational resources. 
+    * **Availability through NVIDIA's API:** The model's availability through NVIDIA's convenient API endpoint simplifies our development and deployment processes, making it easy to integrate into our application.
+
+    While other LLM options exist, the "meta/llama3-8b-instruct" model's strengths in instruction following, its balance of size and performance, and its seamless integration with NVIDIA's API make it an excellent choice for our check fraud detection system." 
+
+* **Semantic Understanding with NVIDIAEmbeddings:**
+
+To accurately match user input with relevant fraud patterns, our system relies on a powerful technique called embeddings. Embeddings are mathematical representations of text that capture the semantic meaning of words and phrases. We utilize `NVIDIAEmbeddings(model="NV-Embed-QA")`, a model specifically designed for question answering, to generate these embeddings. 
+So by leveraging the semantic understanding of `NVIDIAEmbeddings(model="NV-Embed-QA")`, our Retrieval Agent can connect the dots between user queries and relevant fraud patterns, even when the wording isn't an exact match. This results in more accurate and relevant information retrieval, which is crucial for effective fraud detection.
+
+**Here's how these technologies work together:**
 
 1. **NVIDIA API Endpoints for LLMs:** We use NVIDIA's LLMs, accessed through their API endpoints, to power the intelligence behind our agents. These LLMs give our system the ability to understand and generate natural language, which is crucial for analyzing check information and providing clear explanations.
 
@@ -206,14 +221,14 @@ This file contains the implementation of our intelligent agents.
 **Code Snippet Example:**
 
 ```python
-from langchain.embeddings import OpenAIEmbeddings  
-from langchain.vectorstores import FAISS
+from langchain_nvidia_ai_endpoints import NVIDIAEmbeddings # Import the correct embeddings
+from langchain.vectorstores import FAISS 
 
 class RetrievalAgent:
     def __init__(self, llm, vectorstore): 
         self.llm = llm
         self.vectorstore = vectorstore
-        self.embeddings = OpenAIEmbeddings()  # For creating embeddings
+        self.embeddings = NVIDIAEmbeddings(model="NV-Embed-QA") # Use NVIDIAEmbeddings
 
     async def retrieve_relevant_info(self, input_data: AgentState) -> AgentState:
         user_input = input_data.get("input")
