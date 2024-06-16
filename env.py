@@ -3,7 +3,7 @@
 import os
 
 # Replace this with your actual NVIDIA API key
-nvidia_api_key = "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"
+nvidia_api_key = "nvapi- your-api-key"
 
 # Create or overwrite the .env file
 with open(".env", "w") as env_file:
