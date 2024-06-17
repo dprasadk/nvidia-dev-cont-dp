@@ -539,7 +539,7 @@ Building this AI-powered check fraud detection system was a rewarding journey fi
 
 We welcome contributions!  Here’s how you can get involved:
 
-- **Reporting Issues:** Found a bug? Have a suggestion? Head over to our issue tracker and let us know: [link to issue tracker](#https://github.com/dprasadk/nvidia-dev-cont-dp/issues).
+- **Reporting Issues:** Found a bug? Have a suggestion? Head over to our [issue tracker](#https://github.com/dprasadk/nvidia-dev-cont-dp/issues) and let us know. 
 
 
 ## Generative AI Agents Developer Contest-Submission Details
