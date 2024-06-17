@@ -23,8 +23,9 @@
 - [Agent Interaction Flow](#agent-interaction-flow)
 - [Deployment](#deployment)
 - [Troubleshooting](#troubleshooting)
+- [Challenges and Lessons Learned](#challenges-and-lessons-learned)
 - [Contributing](#contributing) 
-- [License](#license)
+- [Generative AI Agents Developer Contest -Submission Details](#generative-ai-agents-developer-contest-submission-details)
 
 ## The Challenge of Check Fraud
 
@@ -116,6 +117,18 @@ This project aims to demonstrate a practical, AI-driven solution to a real-world
 * **Fraud Detection Agent:** How it assesses risk based on retrieved information and potentially other factors.
 * **Explanation Agent:** How it generates a user-friendly explanation of the assessment.
 * **Output:** How the final assessment and explanation are presented to the user.)**
+
+| Feature                       | Detail                                         |
+|--------------------------------|-------------------------------------------------|
+| Project Category               | Generative AI Agents                           |
+| Large Language Model (LLM)     | meta/llama3-8b-instruct                       |
+| LLM Parameter Size            | 8 Billion Parameters                          |
+| Tested Hardware               | Tesla T4 GPU                                 | 
+| Framework                     | LangChain                                      | 
+| Agent Orchestration Framework | LangGraph                                     | 
+| Vector Database              | FAISS                                         | 
+| Primary Use Case             | Check Fraud Detection & Risk Analytics          |
+| Deployment Strategy          | Containerization (Docker), Cloud Deployment, API |
 
 ## Getting Started
 
@@ -442,7 +455,7 @@ The choice of the most appropriate deployment method will depend on specific req
 
 ## Troubleshooting
 
-This section outlines some common problems you might encounter while setting up or running the check fraud detection system. If your issue isn't listed here, feel free to open an issue on our [issue tracker](link-to-issue-tracker).
+This section outlines some common problems you might encounter while setting up or running the check fraud detection system. If your issue isn't listed here, feel free to open an issue on our [issue tracker](#https://github.com/dprasadk/nvidia-dev-cont-dp/issues).
 
 
 ### API Key Errors
@@ -498,20 +511,41 @@ This section outlines some common problems you might encounter while setting up 
 3. **Hardware upgrade:** If your application is computationally intensive, consider upgrading to a machine with more RAM, CPU cores, or a dedicated GPU.
 4. **Caching:** Implement caching mechanisms to store the results of frequently used queries or computations, reducing redundant processing. 
 
+## Challenges and Lessons Learned
 
+Building this AI-powered check fraud detection system was a rewarding journey filled with valuable lessons. Here are some key challenges we encountered and the insights we gained along the way:
+
+**1.  The Mysterious "[400] Bad Request" and the Importance of Isolation:**
+
+   - **Challenge:**  We faced a persistent "[400] Bad Request" error during the retrieval step, initially pointing to an issue with the NVIDIA API. However, the error message itself wasn't very specific, and we had multiple components involved (FAISS, LangChain's `RetrievalQA`, the embedding model).
+   - **Lesson:**  When debugging complex systems, **isolation is key**.  We systematically tested each component in isolation (direct embedding model test, separate FAISS retrieval script, minimal `retriever_QA` example) to pinpoint the source of the error.
+
+**2.  Assumptions About Return Values and the Need for Careful Inspection:**
+
+   - **Challenge:** We ran into errors ("too many values to unpack" and "object of type 'Document' has no len()") because we assumed a specific structure for the data returned by `faiss_index.similarity_search()`.  
+   - **Lesson:**  **Never assume the structure of data returned from libraries or APIs.**  Always inspect the data type, length, and content (using `print` statements or a debugger) to understand its format.  Adapting code to unexpected data structures is often necessary.
+
+**3.  Code Restructuring and the Importance of Thorough Testing:**
+
+   - **Challenge:**  As we restructured the code (moving `perform_rag` and adjusting how the `retriever` object was passed), we introduced minor but critical errors (incorrect use of `self`, missing arguments).
+   - **Lesson:**  **Anytime you refactor or restructure code, even seemingly small changes, thorough testing is essential.**  Test each change in isolation to quickly catch and fix errors.
+
+**4. Persistence is Key, But Don't Be Afraid to Seek Help:**
+
+   - **Challenge:** Debugging this issue took time and multiple iterations. It's easy to get discouraged when errors persist.
+   - **Lesson:** Persistence is crucial for debugging, but **don't hesitate to ask for help** from the community, documentation, or support channels. Sometimes, a fresh perspective or additional knowledge can make a world of difference.
 
 ## Contributing
 
 We welcome contributions!  Here’s how you can get involved:
 
-- **Reporting Issues:** Found a bug? Have a suggestion? Head over to our issue tracker and let us know: [link to issue tracker].
-- **Feature Requests:**  Have an idea for a cool new feature?  Submit it as a feature request: [link to feature request section].
-- **Code Contributions:** We appreciate your help in making this project even better. Fork the repository, make your changes, and submit a pull request. Please make sure to follow our coding guidelines: [link to contributing guidelines].
+- **Reporting Issues:** Found a bug? Have a suggestion? Head over to our issue tracker and let us know: [link to issue tracker](#https://github.com/dprasadk/nvidia-dev-cont-dp/issues).
 
-## Generative AI Agents Developer Contest , Submission Details
+
+## Generative AI Agents Developer Contest-Submission Details
 
 - This project was developed for NVIDIA's Gen AI Agents Developer Contest.
-    > *Check out our NVIDIA/Langchain contest submission on 𝕏! [URL]: __________________* 
+    > *Check out our NVIDIA/Langchain contest submission on 𝕏! : [Click me @URL..!](#https://x.com/barelylibel/status/1802725523954479572)* 
 
 
 
