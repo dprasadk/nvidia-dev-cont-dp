@@ -51,8 +51,8 @@ This project leverages the power of artificial intelligence (AI) and a multi-age
 
 * **Semantic Understanding with NVIDIAEmbeddings:**
 
-- To accurately match user input with relevant fraud patterns, our system relies on a powerful technique called embeddings. Embeddings are mathematical representations of text that capture the semantic meaning of words and phrases. We utilize `NVIDIAEmbeddings(model="NV-Embed-QA")`, a model specifically designed for question answering, to generate these embeddings. 
-So by leveraging the semantic understanding of `NVIDIAEmbeddings(model="NV-Embed-QA")`, our Retrieval Agent can connect the dots between user queries and relevant fraud patterns, even when the wording isn't an exact match. This results in more accurate and relevant information retrieval, which is crucial for effective fraud detection.
+  * To accurately match user input with relevant fraud patterns, our system relies on a powerful technique called embeddings. Embeddings are mathematical representations of text that capture the semantic meaning of words and phrases. We utilize `NVIDIAEmbeddings(model="NV-Embed-QA")`, a model specifically designed for question answering, to generate these embeddings.
+  * So by leveraging the semantic understanding of `NVIDIAEmbeddings(model="NV-Embed-QA")`, our Retrieval Agent can connect the dots between user queries and relevant fraud patterns, even when the wording isn't an exact match. This results in more accurate and relevant information retrieval, which is crucial for effective fraud detection.
 
 **Here's how these technologies work together:**
 
