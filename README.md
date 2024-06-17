@@ -455,7 +455,7 @@ The choice of the most appropriate deployment method will depend on specific req
 
 ## Troubleshooting
 
-This section outlines some common problems you might encounter while setting up or running the check fraud detection system. If your issue isn't listed here, feel free to open an issue on our [issue tracker](#https://github.com/dprasadk/nvidia-dev-cont-dp/issues).
+This section outlines some common problems you might encounter while setting up or running the check fraud detection system. If your issue isn't listed here, feel free to open an issue on our [issue tracker](https://github.com/dprasadk/nvidia-dev-cont-dp/issues).
 
 
 ### API Key Errors
@@ -539,13 +539,13 @@ Building this AI-powered check fraud detection system was a rewarding journey fi
 
 We welcome contributions!  Here’s how you can get involved:
 
-- **Reporting Issues:** Found a bug? Have a suggestion? Head over to our [issue tracker](#https://github.com/dprasadk/nvidia-dev-cont-dp/issues) and let us know. 
+- **Reporting Issues:** Found a bug? Have a suggestion? Head over to our [issue tracker](https://github.com/dprasadk/nvidia-dev-cont-dp/issues) and let us know. 
 
 
 ## Generative AI Agents Developer Contest-Submission Details
 
 - This project was developed for NVIDIA's Gen AI Agents Developer Contest.
-    > *Check out our NVIDIA/Langchain contest submission on 𝕏! : [Click me @URL..!](#https://x.com/barelylibel/status/1802725523954479572)* 
+    > *Check out our NVIDIA/Langchain contest submission on 𝕏! : [Click me @URL..!](https://x.com/barelylibel/status/1802725523954479572)* 
 
 
 
